@@ -420,6 +420,7 @@ footer p {
     }
 }
 @media screen and (max-width:420px){
+    
     .intro{
         display: block;
     }
@@ -428,14 +429,25 @@ footer p {
         margin-left: 0!important;
         margin-right: 10px!important;
     }
+    .I-am {
+        width: 100%;
+        text-align: center;
+    }    
     .videos{
-        margin-left: 0;
+        width: 88vw;
+        margin:0 auto;
     }
     .video1{
         width: 250px;
     }
     .heading{
-        width: 100%!important;
+        width: 85vw!important;
+    }
+    .image-gallery{
+        display: block;
+    }
+    .socialMedia{
+        width: 97vw;
     }
     /* .videos{
         width: 50%;
