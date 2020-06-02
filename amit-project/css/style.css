@@ -449,6 +449,17 @@ footer p {
     .socialMedia{
         width: 97vw;
     }
+}
+.image {
+    margin-top: 20px;
+}
+.img-13 {
+    margin-top: 0;
+}
+.img-8 #image-8, .img-10 #image-10, .img-11 #image-11, .img-15 #image-15 {
+    padding-bottom: 20px;
+}
+
     /* .videos{
         width: 50%;
         height: auto;
