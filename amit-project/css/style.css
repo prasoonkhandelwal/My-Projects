@@ -157,18 +157,19 @@ img {
 }
 
 .img-9 img {
-    width: 114%;
+    width: 111%;
 }
 
 .img-12 img {
-    width: 119%;
+    width: 114%;
 }
-.img-13 img{
-    width: 119%;
-} 
+
+.img-13 img {
+    width: 114%;
+}
 
 .img-14 img {
-    width: 110%;
+    width: 105%;
 }
 
 .img-10 #image-10 {
@@ -188,9 +189,14 @@ img {
     width: 112.6%;
 }
 
-.img-8 #image-8,.img-11 #image-11 {
+.img-8 #image-8 {
     padding-bottom: 5px;
 }
+
+.img-11 #image-11 {
+    padding-bottom: 5px;
+}
+
 .contact {
     text-align: center;
     border-bottom: 2px solid white;
@@ -246,6 +252,7 @@ footer p {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+    
     #SocialIcons a{
         display:inline;
     }
@@ -279,7 +286,7 @@ footer p {
         grid-row-start: 2;
     }
     .img-6 img {
-        width: 134%;
+        width: 133%;
         margin-left: -150px;
     }
     .img-4 {
@@ -302,7 +309,7 @@ footer p {
         grid-column-end: 6;
     }
     .img-9 img{
-        width: 153%;
+        width: 150%;
         margin-left: -80px;
     }
     .img-10{
@@ -315,7 +322,7 @@ footer p {
         grid-row-start: 5;
     }
     .img-25 img{
-        width: 153%;
+        width: 149%;
         margin-left: -65px;
     }
     .img-11{
@@ -327,7 +334,7 @@ footer p {
         grid-column-end: 6;
     }
     .img-12 img{
-        width: 128%;
+        width: 125%;
         margin-left: -100px;
     }
     .img-13{
@@ -337,10 +344,9 @@ footer p {
     .img-14{
         grid-column-start: 3;
         grid-column-end: 6;
-        /* margin-top: 0; */
     }
     .img-14 img{
-        width: 147%;
+        width: 140%;
         margin-left: -100px;
     }
     .img-15{
@@ -353,7 +359,7 @@ footer p {
         grid-row-start: 8;
     }
     .img-22 img{
-        width: 142%;
+        width: 136%;
     }
     .img-18{
         grid-column-start: 1;
@@ -372,6 +378,7 @@ footer p {
     #SocialIcons a{
         display:inline;
     }
+    
     .intro {
         display: block;
         height: 80%;
@@ -388,9 +395,9 @@ footer p {
     .image-gallery {
         display: block;
     }
-     .image {
+    .image {
         margin-top: 20px;
-    } 
+    }
     .img-13 {
         margin-top: 0;
     }
@@ -430,13 +437,14 @@ footer p {
     .socialMedia{
         width: 97vw;
     }
-}
-/* .image {
+
+.image {
     margin-top: 20px;
-} */
+}
 .img-13 {
     margin-top: 0;
 }
 .img-8 #image-8, .img-10 #image-10, .img-11 #image-11, .img-15 #image-15 {
     padding-bottom: 20px;
+}
 }
