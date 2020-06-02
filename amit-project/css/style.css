@@ -389,6 +389,7 @@ footer p {
     }
     .videos {
         width: 75%;
+        height: 80%;
         margin: 0 auto;
         text-align: center;
     }
