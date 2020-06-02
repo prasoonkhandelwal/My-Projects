@@ -386,7 +386,7 @@ footer p {
         margin-left: -100px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:420px) and (max-width:768px) {
     #SocialIcons a{
         display:inline;
     }
@@ -394,7 +394,7 @@ footer p {
         margin-top: 20px;
     } */
     .intro {
-        display: inline-block;
+        display: block;
         height: 80%;
     }
     .I-am {
@@ -418,4 +418,27 @@ footer p {
     .img-8 #image-8, .img-10 #image-10, .img-11 #image-11, .img-15 #image-15 {
         padding-bottom: 20px;
     }
+}
+@media screen and (max-width:420px){
+    .intro{
+        display: block;
+    }
+    .navbar-brand{
+        padding-right: 0!important;
+        margin-left: 0!important;
+        margin-right: 10px!important;
+    }
+    .videos{
+        margin-left: 0;
+    }
+    .video1{
+        width: 250px;
+    }
+    .heading{
+        width: 100%!important;
+    }
+    /* .videos{
+        width: 50%;
+        height: auto;
+    } */
 }
