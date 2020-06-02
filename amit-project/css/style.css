@@ -69,6 +69,9 @@ a {
     /* transform: translateX(-100px); */
     color: #C0C0C0;
 }
+.heading h1{
+    color: #c0c0c0;
+}
 
 .videos {
     border-radius: 40px;
@@ -420,7 +423,9 @@ footer p {
     }
 }
 @media screen and (max-width:420px){
-    
+    #SocialIcons a{
+        display:inline;
+    }
     .intro{
         display: block;
     }
