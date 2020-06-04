@@ -8,10 +8,10 @@ body{
 }
 .navBar{
     /* display: flex; */
-    background-color: rgba(7, 3, 235, 0.32);
+    /* background-color: rgba(7, 3, 235, 0.32); */
     /* position: fixed; */
     width: 100%;
-    box-shadow: 0 2px 0 rgba(7, 3, 235, 0.32);
+    /* box-shadow: 0 2px 0 rgba(7, 3, 235, 0.32); */
     padding-bottom: 30px;
     padding-top: 2.5rem;
 }
@@ -49,16 +49,17 @@ body{
     color: gray;
 }
 .container{
-    margin-top: -7.5rem;
+    /* margin-top: -7.5rem; */
     width: 100vw;
     height: 100vh;
     background:linear-gradient(0deg, rgba(235, 57, 3, 0.7), rgba(7, 3, 235, 0.8)), url(images/r2.jpg);
     background-size: cover;
 }
-.container div{
+.container .main{
+    padding-top: 5px;
     position: relative;
     margin-left: 10%;
-    top: 30%;
+    top: 15%;
 }
 button{
     background: none;
@@ -94,7 +95,7 @@ button{
 .container h3{
     color: #f0f0f0;
     font-family: 'Raleway', sans-serif;
-    font-size: 4.5rem;
+    font-size: 4.4rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -112,7 +113,7 @@ button{
     background:linear-gradient(0deg, rgba(7, 3, 235, 0.8),rgba(235, 57, 3, 0.7) );
     padding-bottom: 5rem;
     text-align: center;
-    height: 130vh;
+    height: 140vh;
 }
 h2{
     padding-bottom: 10px;
@@ -148,15 +149,47 @@ h2{
 }
 .project1{
     width: 100%;
-    height: 90vh;
-    background: linear-gradient(0deg,rgba(235, 46, 3, 0.48), rgba(7, 3, 235, 0.31) );
+    height: 95vh;
+    background: linear-gradient(0deg,rgba(235, 46, 3, 0.1), rgba(7, 3, 235, 0.1) );
 
 }
 .project1-summary{
-    background: linear-gradient(0deg,rgba(235, 46, 3, 0.48), rgba(7, 3, 235, 0.31) );
+    background: linear-gradient(0deg,rgba(235, 46, 3, 0.1), rgba(7, 3, 235, 0.1));
     width: 100%;
-    height: 90vh;
+    height: 95vh;
 }
+.project1-summary h1{
+    color: white;
+    text-align: left;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    margin: 25% 0 1.3rem 5rem;
+}
+.project1-summary p{
+    color: #ddd;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 75%;
+    margin-left: 5rem;
+
+}
+.design-icons{
+    text-align: left;
+    padding-top: 2rem;
+}
+.design-icons i{
+    margin-left:5rem ;
+    font-size: 1.5rem;
+    color: white;
+}
+.design-icons p{
+    
+    display: inline;
+    text-align: left;
+    margin-left: 1rem;
+    line-height: 200%;
+}
+
 /* .project img{
     height:24rem;
     width: 100%;
@@ -217,6 +250,23 @@ h2{
     width: 50%;
     border: 2px solid blue;
 }
+.services-icons i{
+    color: white;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.services-icons:after{
+    width: 100%;
+    max-width: 30px;
+    height: 6px;
+    display: block;
+    content: '';
+    border-radius: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
 .content-styles{
     width: 85%;
     margin: 0 auto;
@@ -307,9 +357,9 @@ footer{
         font-size: 28px;
         width: 70%;
     }
-    .listOfProjects{
+    /* .listOfProjects{
         width: 94vw;
-    }
+    } */
     .socialMedia{
         width: 90vw;
     }
@@ -317,12 +367,12 @@ footer{
         font-size: 20px;  
     }
 }
-@media screen and (min-width:1224px){
-    .listOfProjects{
-        width: 94vw;
+@media screen and(max-width:1500px)and(min-width:1224px){
+    .project-title{
+        margin-top: 7rem;
     }
 }
-@media screen and (min-width:450px) and (max-width:991px){
+@media screen and (min-width:500px) and (max-width:991px){
     body{
         overflow-x: hidden;
     }
@@ -331,6 +381,9 @@ footer{
     }
     .navigation{
         display: none;
+    }
+    .logo a{
+        margin-left: 3rem;
     }
     .container div{
         margin-left: 0;
@@ -346,14 +399,49 @@ footer{
     #h2{
         width:22rem;
     }
-    .listOfProjects{
-        width: 94vw;
+    .service-1-2{
+        display: block;
     }
+    .service{
+        width: 100%;
+    }
+    .service-2{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .services{
+        height: 150%;
+    }
+    .project1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height:80vh;
+    }
+    .project1-summary{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height:90vh;
+    }
+    .project1-summary h1{
+        margin-left: 3rem;
+    }
+    .project1-summary p{
+        margin-left: 3rem;
+    }
+    .allProjects{
+        height: auto;
+    }
+    .design-icons i{
+        margin-left: 3rem;
+    }
+    /* .listOfProjects{
+        width: 94vw;
+    } */
     .allContact h1{
         font-size: 45px;
     }
 }
-@media screen and (max-width:450px) and (min-width:320px){
+@media screen and (max-width:500px) and (min-width:315px){
     .navBar{
         width: 100vw;
     }
@@ -370,5 +458,54 @@ footer{
     }
     .navigation{
         display: none;
+    }
+    #h2{
+        width:80%;
+    }
+    .container .main{
+        top: 5%;
+        margin-left: 5px;
+    }
+    .service-1-2{
+        display: block;
+        width: 90vw;
+    }
+    .service{
+        width: 100%;
+    }
+    .service-2{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .services{
+        height: 150%;
+    }
+    .project1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height:80vh;
+    }
+    .project1-summary{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height:auto;
+    }
+    .allProjects{
+        height: auto;
+    }
+    .project1-summary h1{
+        margin-left: 1rem;
+    }
+    .project1-summary p{
+        margin-left: 1rem;
+    }
+    .design-icons i{
+        margin-left: 1rem;
+    }
+    .design-icons p{
+        margin-left: 5px;
+    }
+    .testimonials div p{
+        font-size: 1.5rem;
     }
 }
