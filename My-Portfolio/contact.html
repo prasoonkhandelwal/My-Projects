@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Rishabh Panchal</title>
+    <title>Contact | Rishabh Panchal</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/resStyle.css">
     <link rel="stylesheet" href="CSS/projects.css">
@@ -15,6 +15,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/ac4f42a62b.js"></script>
+
+    <style>
+        .services{
+            height: 60vh;
+        }
+        .content-styles{
+            max-width: 950px;
+            width: 100%;
+            padding: 0;
+            margin:4rem auto 0 auto;
+            text-align: center;
+        }
+        .content-styles div{
+            border: 2px solid #4b6cc1;
+            width: 90%;
+            padding:0 10px;
+            margin: 0 auto;
+        }
+        .content-styles h3{
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+        }
+        .txt-large{
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4b6cc1;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,45 +53,37 @@
             <div class="logo">
                 <a href="#">RISHABH PANCHAL</a>
             </div>
-        <div class="navigation">
-            <div class="ham-btn" onclick="showNav()">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            
-        <ul class="links">
-            <li class="link"><a href="index.html">Home</a></li>
-            <li class="link"><a href="projects.html">Projects</a></li>
-            <li class="link"><a href="about.html">About</a></li>
-            <li class="link"><a href="contact.html">Contact</a></li>
-            <li class="link"><a href="services.html">Services</a></li>
-        </ul>
-</div>
-</nav>
+            <div class="navigation">
+                <div class="ham-btn" onclick="showNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="links">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link"><a href="projects.html">Projects</a></li>
+                    <li class="link"><a href="about.html">About</a></li>
+                    <li class="link"><a href="contact.html">Contact</a></li>
+                    <li class="link"><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="main">
-            <h3>About Me</h3>
-            <p>Find out who I'm, why work with me and what I'm all about.</p>
+            <h3>My Contact.</h3>
+            <p>If you'd like to chat about project please send an Email to below link. You can also contact me through
+                the social media links.</p>
         </div>
     </div>
-    <div class="allProjects" id="myProject">
-        <div class="aboutMe">
-            <div class="who-I">
-                <h1>Who I Am</h1>
-                <p>My name is Rishabh, I'm a frontend developer based in Rajasthan, India.</p>
-                <p>During the evenings I spend my time working on my clients projects and building my own projects. In
-                    the last 1 year I completed many certification courses.</p>
-                <p>My recent project is called PerCalc. It's a simple yet poerful calculator to calculate percentage</p>
-            </div>
-            <div class="who-I">
-                <h1>Why Work With Me</h1>
-                <p>There is nothing I enjoy more than developing good and effective websites for nice people.</p>
-                <p>Well, I have all of the skills and experience that you’re looking for and I’m confident that I would
-                    be a good in your project.</p>
-                <p>If you've got a project you'd like to work with me just&nbsp;<a href="#ContactMe"
-                        class="getInTouch">get in touch&nbsp;</a> and we can get to work!</p>
-            </div>
+    <div class="services">
+        <div class="content-styles">
+            <div>
+            <h3 class="h2">Status</h3>
+            <p class="txt-large txt-dark">Available</p>
+            <p class="txt-light">I'm currently looking for a new projects. So please contact me to below information.</p>
         </div>
+        </div>
+
     </div>
 
     <section class="allContact" id="ContactMe">
@@ -97,9 +118,9 @@
         <p>&copy; All rights reserved 2020, Rishabh Panchal.</p>
     </footer>
     <script>
-        function showNav(){
-    document.getElementsByClassName("navigation")[0].classList.toggle("active");
-  }
+        function showNav() {
+            document.getElementsByClassName("navigation")[0].classList.toggle("active");
+        }
     </script>
 </body>
 

@@ -128,6 +128,7 @@
         transition:all 500ms ease-in-out;
       }
       .navigation.active {
+          position: fixed;
           overflow-x: hidden;
           background: #000;
           right: 0;
