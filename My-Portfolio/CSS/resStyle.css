@@ -15,6 +15,7 @@
     .socialMedia{
         width: 90vw;
     }
+    
     footer p{
         font-size: 20px;  
     }
@@ -206,6 +207,9 @@
       .navigation .links a:hover:after {
         width:100%;
       }
+      .socialMedia a{
+          margin-bottom: 20px;
+      }
 }
 
 @media screen and (max-width:670px) and (min-width:315px){
@@ -221,6 +225,10 @@
     }
     .logo a{
         font-size: 1.8rem;
+    }
+    .container{
+        height: 100vh;
+        padding-bottom: 30px;
     }
     .container .logo{
         width: 321px;
@@ -245,8 +253,8 @@
     }
     .container .main{
         /* top: 5%; */
-        margin-top: 2rem;
-        margin-left:10px;
+        margin-top: -3rem;
+        margin-left:0px;
     }
     .pageContainer p{
         font-size: 20px;
@@ -316,5 +324,10 @@
     }
     .allContact h1{
         font-size: 3rem;
+    }
+}
+@media screen and (min-height:1024px){
+    .container{
+        height: 70vh;
     }
 }
