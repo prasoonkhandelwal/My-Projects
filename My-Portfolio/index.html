@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is Rishabh</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Rishabh Panchal | Web Design & Development</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/resStyle.css">
+    <!-- <link rel="stylesheet" href="JS/script.js"> -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4abc9df942.js" crossorigin="anonymous"></script>
@@ -17,28 +19,42 @@
 
 <body>
     <div class="container" id="contain">
-    <nav class="navBar">
-        <div class="logo">
-            <a href="#">Rishabh Panchal</a>
-        </div>
-        <div class="navigation">
-            <ul>
-                <li><a href="#contain">Home</a></li>
-                <li><a href="#myProject">Projects</a></li>
-                <li><a href="#ContactMe">About</a></li>
-                <li><a href="#ContactMe">Contact</a></li>
-                <li><a href="#ContactMe">Services</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-        <div class="main">
-            <h3>Hey I'm Rishabh.</h3>
-            <p>I am a frontend developer. I am here to create you a fully responsive HTML, CSS and JAVASCRIPT website.
-            </p>
-            <button class="btn"><a href="#" id="btn1">My Projects</a></button>
 
-        </div>
+
+
+
+
+
+
+        <nav class="navBar">
+
+                <div class="logo">
+                    <a href="#">RISHABH PANCHAL</a>
+                </div>
+            <div class="navigation">
+                <div class="ham-btn" onclick="showNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                
+            <ul class="links">
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link"><a href="projects.html">Projects</a></li>
+                <li class="link"><a href="about.html">About</a></li>
+                <li class="link"><a href="#ContactMe">Contact</a></li>
+                <li class="link"><a href="services.html">Services</a></li>
+            </ul>
+    </div>
+    </nav>
+
+    <div class="main">
+        <h3>Hey I'm Rishabh.</h3>
+        <p>I am a frontend developer. I am here to create you a fully responsive HTML, CSS and JAVASCRIPT website.
+        </p>
+        <button class="btn"><a href="projects.html" id="btn1">My Projects</a></button>
+
+    </div>
     </div>
     <section>
         <div class="allProjects" id="myProject">
@@ -49,16 +65,17 @@
                 <div class="project1"></div>
                 <div class="project1-summary">
                     <h1 class="project-title">Durgesh Soni</h1>
-                    <p>This is a modeling portfolio website is created by me to show the Mr. Durgesh Soni modeling profile.</p>
+                    <p>This is a modeling portfolio website is created by me to show the Mr. Durgesh Soni modeling
+                        profile.</p>
                     <div class="design-icons">
-                    <!-- <i class="fa fa-desktop" aria-hidden="true"></i> -->
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    <p>LOGO DESIGN</p><br>
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    <p>WEB DESIGN</p><br>
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    <p>RESPONSIVE DESIGN</p><br>
-                </div>
+                        <!-- <i class="fa fa-desktop" aria-hidden="true"></i> -->
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p>LOGO DESIGN</p><br>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p>WEB DESIGN</p><br>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p>RESPONSIVE DESIGN</p><br>
+                    </div>
                 </div>
             </div>
             <!-- <div class="listOfProjects">
@@ -88,7 +105,7 @@
                 </a>
             </div> -->
             <button class="btn btn-P-S">
-                <a id="btn2">View all Projects</a>
+                <a href="projects.html" id="btn2">View all Projects</a>
                 <!-- <i class="fa fa-chevron-right"></i> -->
             </button>
         </div>
@@ -117,7 +134,8 @@
                 <div class="content-styles">
                     <h2 class="h2">Web Design</h2>
                     <p class="txt-large txt-dark">User Focused</p>
-                    <p class="txt-light">A website should be designed for the people who will use it, so that's exactly what I do. User focused design should be the primary goal of any website.</p>
+                    <p class="txt-light">A website should be designed for the people who will use it, so that's exactly
+                        what I do. User focused design should be the primary goal of any website.</p>
                 </div>
             </div>
             <div class="service service-2">
@@ -127,18 +145,20 @@
                 <div class="content-styles">
                     <h2 class="h2">Web Development</h2>
                     <p class="txt-large txt-dark">Responsive and Fast</p>
-                    <p class="txt-light">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+                    <p class="txt-light">Every website should be built with two primary goals: Firstly, it needs to work
+                        across all devices. Secondly, it needs to be fast as possible.</p>
                 </div>
             </div>
         </div>
         <button class="btn btn-P-S">
-            <a id="btn2">View All Services</a>
+            <a href="services.html" id="btn2">View All Services</a>
             <!-- <i class="fa fa-chevron-right"></i> -->
         </button>
     </section>
     <section class="testimonials">
         <div class="quate-inner">
-            <p class="quate-text">"Rishabh is not only great for design and development, he is a problem solver who always delivers an exceptional quality of work. Highly recommended."</p>
+            <p class="quate-text">"Rishabh is not only great for design and development, he is a problem solver who
+                always delivers an exceptional quality of work. Highly recommended."</p>
         </div>
         <div>
             <p>Durgesh Soni, Model</p>
@@ -175,6 +195,11 @@
     <footer class="footer">
         <p>&copy; All rights reserved 2020, Rishabh Panchal.</p>
     </footer>
+    <script>
+        function showNav(){
+    document.getElementsByClassName("navigation")[0].classList.toggle("active");
+  }
+    </script>
 </body>
 
 </html>

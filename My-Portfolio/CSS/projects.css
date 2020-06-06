@@ -1,0 +1,92 @@
+.container {
+    background: linear-gradient(0deg, rgba(235, 57, 3, 0.7), rgba(7, 3, 235, 0.8)), url(../images/project.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 30px;
+}
+.container .main{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    text-align: center;
+}
+.main p{
+    text-align: center;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.project{
+    margin-top: 5em;
+}
+.aboutMe{
+    margin-top: 2rem;
+}
+.allContact{
+    border-top: none;
+}
+.contact{
+    background: linear-gradient(0deg, rgba(216, 77, 35, 0.78), rgba(7, 3, 235, 0.8));
+}
+.who-I{
+    text-align: left;
+    max-width:940px ;
+    margin: 0 auto;
+}
+.who-I h1{
+     font-size: 3.25rem;
+     color: white;
+}
+.who-I p{
+    font-size: 1.5rem;
+    color: #ddd;
+    margin: 15px 0;
+    line-height: 160%;
+}
+.getInTouch{
+    text-decoration: none;
+    color: blue;
+}
+.service-1-2{
+    display: block;
+    max-width: 1250px;
+    width: 100%;
+}
+.service{
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+    /* margin-left: 0; */
+
+}
+.content-styles{
+    width: 65%;
+    margin-right: 0;
+    text-align: left;
+    padding-right: 5rem;
+}
+.content-styles h2{
+    padding-top: 5rem;
+    font-size: 3.2rem;
+}
+.service-2{
+    margin-top: 5rem;
+}
+.services-icons{
+    width: 35%;
+}
+.services-icons i{
+    font-size: 8rem;
+    margin-top: 6rem;
+}
+@media screen and (max-width:670px) and (min-width:315px){
+    .services-icons{
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .services-icons::after{
+        margin-left: 3.3rem;
+        margin-right: 0;
+    }
+}
+
