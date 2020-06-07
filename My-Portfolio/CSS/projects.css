@@ -145,6 +145,9 @@
         margin-top: 10px;
         margin-bottom: 2rem;
     }
+    .available{
+        text-align: center;
+    }
     .content-styles h3{
         font-size: 1.5rem;
     }
