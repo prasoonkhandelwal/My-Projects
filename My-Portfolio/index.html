@@ -7,7 +7,6 @@
     <title>Rishabh Panchal | Web Design & Development</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/resStyle.css">
-    <!-- <link rel="stylesheet" href="JS/script.js"> -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4abc9df942.js" crossorigin="anonymous"></script>
@@ -19,42 +18,31 @@
 
 <body>
     <div class="container" id="contain">
-
-
-
-
-
-
-
         <nav class="navBar">
-
-                <div class="logo">
-                    <a href="#">RISHABH PANCHAL</a>
-                </div>
+            <div class="logo">
+                <a href="#">RISHABH PANCHAL</a>
+            </div>
             <div class="navigation">
                 <div class="ham-btn" onclick="showNav()">
                     <span></span>
                     <span></span>
                     <span></span>
-                  </div>
-                
-            <ul class="links">
-                <li class="link"><a href="index.html">Home</a></li>
-                <li class="link"><a href="projects.html">Projects</a></li>
-                <li class="link"><a href="about.html">About</a></li>
-                <li class="link"><a href="contact.html">Contact</a></li>
-                <li class="link"><a href="services.html">Services</a></li>
-            </ul>
-    </div>
-    </nav>
-
-    <div class="main">
-        <h3>Hey I'm Rishabh.</h3>
-        <p>I am a frontend developer. I am here to create you a fully responsive HTML, CSS and JAVASCRIPT website.
-        </p>
-        <button class="btn"><a href="projects.html" id="btn1">My Projects</a></button>
-
-    </div>
+                </div>
+                <ul class="links">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link"><a href="projects.html">Projects</a></li>
+                    <li class="link"><a href="about.html">About</a></li>
+                    <li class="link"><a href="services.html">Services</a></li>
+                    <li class="link"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main">
+            <h3>Hey I'm Rishabh.</h3>
+            <p>I am a frontend developer. I am here to create you a fully responsive HTML, CSS and JAVASCRIPT website.
+            </p>
+            <button class="btn"><a href="projects.html" id="btn1">My Projects</a></button>
+        </div>
     </div>
     <section>
         <div class="allProjects" id="myProject">
@@ -68,7 +56,6 @@
                     <p>This is a modeling portfolio website is created by me to show the Mr. Durgesh Soni modeling
                         profile.</p>
                     <div class="design-icons">
-                        <!-- <i class="fa fa-desktop" aria-hidden="true"></i> -->
                         <i class="fa fa-check" aria-hidden="true"></i>
                         <p>LOGO DESIGN</p><br>
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -78,35 +65,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="listOfProjects">
-                <a class="project">
-                    <img src="images/project1.jpg" alt="project1">
-                    <p>Tribute Page</p>
-                </a>
-                <a class="project">
-                    <img src="images/project2.png" alt="project2">
-                    <p>Random Quate Machine</p>
-                </a>
-                <a class="project">
-                    <img src="images/project3.png" alt="project3">
-                   <p>JavaScript Calculator</p>  
-                </a>
-                <a class="project">
-                    <img src="images/project4.jpg" alt="project4">
-                    <p>Map Data Across the Globe</p>
-                </a>
-                <a class="project">
-                    <img src="images/project5.png" alt="project5">
-                    <p>Wikipedia Viewer</p>
-                </a>
-                <a class="project">
-                    <img src="images/project6.png" alt="project6">
-                    <p>Tic Tac Toe Game</p>
-                </a>
-            </div> -->
             <button class="btn btn-P-S">
                 <a href="projects.html" id="btn2">View all Projects</a>
-                <!-- <i class="fa fa-chevron-right"></i> -->
             </button>
         </div>
         </div>
@@ -152,7 +112,6 @@
         </div>
         <button class="btn btn-P-S">
             <a href="services.html" id="btn2">View All Services</a>
-            <!-- <i class="fa fa-chevron-right"></i> -->
         </button>
     </section>
     <section class="testimonials">
@@ -171,7 +130,7 @@
             <div class="socialMedia">
                 <a href="mailto:rishabhpanchal2002@gmail.com">
                     <i class="fa fa-at"></i>
-                     Send a Mail
+                    Send a Mail
                 </a>
                 <a href="https://www.instagram.com/rishabhpanchal_02/">
                     <i class="fa fa-instagram"></i>
@@ -185,7 +144,7 @@
                     <i class="fa fa-twitter"></i>
                     twitter
                 </a>
-                
+
                 <!-- <a href="#">
                     <i class="fa fa-mobile"></i>
                     Call me
@@ -197,9 +156,9 @@
         <p>&copy; All rights reserved 2020, Rishabh Panchal.</p>
     </footer>
     <script>
-        function showNav(){
-    document.getElementsByClassName("navigation")[0].classList.toggle("active");
-  }
+        function showNav() {
+            document.getElementsByClassName("navigation")[0].classList.toggle("active");
+        }
     </script>
 </body>
 

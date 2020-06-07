@@ -1,3 +1,4 @@
+/* all pages css without index.html */
 .container {
     background: linear-gradient(0deg, rgba(235, 57, 3, 0.7), rgba(7, 3, 235, 0.8)), url(../images/project.jpg);
     background-size: cover;
@@ -55,8 +56,6 @@
     display: flex;
     width: 94%;
     margin: 0 auto;
-    /* margin-left: 0; */
-
 }
 .content-styles{
     width: 65%;
@@ -85,11 +84,78 @@
         padding-left: 20px;
     }
     .services-icons::after{
-        margin-left: 3.3rem;
+        margin-left: 2rem;
         margin-right: 0;
     }
     .pageContainer .main{
         margin-top: 3rem;
+    }
+    .who-I h1{
+        font-size: 1.75rem;
+    }
+    .who-I p{
+        font-size: 1.25rem;
+    }
+    .aboutMe{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #h2{
+        width:80%;
+    }
+    #h2 h2{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+    .service{
+        display: block;
+        width: 100%;
+    }
+    .service-1-2{
+        display: block;
+        width: 90vw;
+    }
+    .service{
+        display: block;
+        width: 100%;
+    }
+    .txt-large{
+        font-size: 1.7rem;
+    }
+    .content-styles{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content-styles h2{
+        font-size: 2rem;
+        text-align: left;
+        padding-top: 1.5rem;
+    }
+    .service-2{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .services{
+        height: 150%;
+    }
+    .txt-light{
+        font-size: 1.25rem;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 2rem;
+    }
+    .content-styles h3{
+        font-size: 1.5rem;
+    }
+    .txt-large{
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .services-icons i{
+        font-size: 5rem;
+        margin-top: 2rem;
     }
 }
 
