@@ -1,9 +1,10 @@
 /* all pages css without index.html */
 .container {
-    background: linear-gradient(0deg, rgba(235, 57, 3, 0.7), rgba(7, 3, 235, 0.8)), url(../images/project.jpg);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/project.jpg);
     background-size: cover;
     height: auto;
     padding-bottom: 30px;
+    border-bottom: 2px solid #0e76e8;
 }
 .container .main{
     margin-top: 8rem;
@@ -23,10 +24,9 @@
     margin-top: 2rem;
 }
 .allContact{
-    border-top: none;
 }
 .contact{
-    background: linear-gradient(0deg, rgba(216, 77, 35, 0.78), rgba(7, 3, 235, 0.8));
+    background: #191a1d;
 }
 .who-I{
     text-align: left;
@@ -35,17 +35,17 @@
 }
 .who-I h1{
      font-size: 3.25rem;
-     color: white;
+     color:#000;
 }
 .who-I p{
     font-size: 1.5rem;
-    color: #ddd;
+    color: gray;
     margin: 15px 0;
     line-height: 160%;
 }
 .getInTouch{
     text-decoration: none;
-    color: blue;
+    color: #0e76e8;
 }
 .service-1-2{
     display: block;
@@ -78,6 +78,9 @@
     margin-top: 6rem;
 }
 @media screen and (max-width:670px) and (min-width:315px){
+    .container{
+        border-bottom: 2px solid #0e76e8;
+    }
     .services-icons{
         width: 100%;
         text-align: left;
